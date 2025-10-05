@@ -1,10 +1,8 @@
-/* css/login.css */
-
 .auth-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 120px); /* Ajuste para header + footer */
+  min-height: calc(100vh - 120px);
   padding: 2rem;
   background: #f9f9f9;
 }
