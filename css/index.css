@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

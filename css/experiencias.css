@@ -1,0 +1,45 @@
+.experiencias {
+  padding: 2rem;
+}
+
+.experiencias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card h2 {
+  margin: 1rem;
+}
+
+.card p {
+  margin: 0 1rem 1rem;
+}
+
+.card button {
+  margin: 0 1rem 1.5rem;
+  background: #007a5c;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
